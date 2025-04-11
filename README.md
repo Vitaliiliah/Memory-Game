@@ -38,23 +38,4 @@
 HTML • CSS • JavaScript(localStorage для збереження даних) • API 
 
 ## 📂 Структура проєкту
-PROJECT/
-│
-├── css/
-│   ├── card.css
-│   └── styles.css
-│
-├── img/
-│   └── images.jpg
-│
-├── js/
-│   ├── card.js
-│   ├── main.js
-│   └── memoryGame.js
-│
-├── sounds/
-│   ├── start.mp4
-│   └── win.mp4
-│
-├── index.html
-└── README.md
+<pre lang="markdown"><code>## 📂 Структура проєкту ``` PROJECT/ ├── css/ │ ├── card.css │ └── styles.css │ ├── img/ │ └── images.jpg │ ├── js/ │ ├── card.js │ ├── main.js │ └── memoryGame.js │ ├── sounds/ │ ├── start.mp4 │ └── win.mp4 │ ├── index.html └── README.md ``` </code></pre>
