@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="shortcut icon" href="./img/images (3).jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/card.css" />
+</head>
+<body>
+    <!-- Початковий екран із вибором режиму -->
+    <div id="start-screen" class="screen">
+        <h1>Memory Game</h1>
+        <p>Виберіть режим гри:</p>
+        <button id="easy-mode">Легкий (4x4)</button>
+        <button id="hard-mode">Складний (6x6)</button>
+    </div>
+
+    <!-- Дошка для карток -->
+    <div id="game-board" class="game-board hidden"></div> 
+
+    <!-- Кнопки та найкращий час -->
+    <button id="restart" class="restart-btn hidden">Почати заново</button>
+    <button id="back-to-menu" class="back-to-menu hidden">Повернутись в головне меню</button>
+    <span id="best-time" class="best-time hidden">Найкращий час: 0</span>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
